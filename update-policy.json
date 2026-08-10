@@ -1,6 +1,6 @@
 {
-  "latest": "0.1.4",
-  "minimumVersion": "0.1.4",
+  "latest": "0.1.5",
+  "minimumVersion": "0.1.5",
   "releases": {
     "0.1.1": {
       "publishedAt": "2026-08-10T16:33:10Z",
@@ -33,6 +33,21 @@
           "fixed": [
             "Update offered itself before your licence had been checked, then changed to Activate licence after you pressed it.",
             "\"Get a licence\" was shown to people who already had one and only needed this computer added."
+          ]
+        }
+      }
+    },
+    "0.1.5": {
+      "publishedAt": "2026-08-11T01:00:00Z",
+      "sizeMb": 92,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "What's new now includes SpaleHub's own releases, not only the programs it installs."
+          ],
+          "fixed": [
+            "What's new listed versions out of order when several were published on the same day."
           ]
         }
       }
