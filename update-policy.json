@@ -1,6 +1,6 @@
 {
-  "latest": "0.1.6",
-  "minimumVersion": "0.1.6",
+  "latest": "0.1.7",
+  "minimumVersion": "0.1.7",
   "releases": {
     "0.1.1": {
       "publishedAt": "2026-08-10T16:33:10Z",
@@ -64,6 +64,18 @@
           ],
           "fixed": [
             "The same action was drawn two different ways on two rows."
+          ]
+        }
+      }
+    },
+    "0.1.7": {
+      "publishedAt": "2026-08-11T03:00:00Z",
+      "sizeMb": 92,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Add-ons. Extra pieces for the programs you own, starting with a skill that teaches the agents in SpaleStudio to talk to each other."
           ]
         }
       }
