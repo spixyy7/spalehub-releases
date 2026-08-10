@@ -1,0 +1,23 @@
+{
+  "latest": "0.1.1",
+  "minimumVersion": "0.1.1",
+  "releases": {
+    "0.1.1": {
+      "publishedAt": "2026-08-10T16:33:10Z",
+      "sizeMb": 92,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Licence keys work for every Spale program. Paste one and SpaleHub finds the program it belongs to, adds it to your account, and tells you what to do next."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Licencni ključevi rade za svaki Spale program. Nalepite ključ i SpaleHub sam pronađe kom programu pripada, doda ga na nalog i kaže šta je sledeće."
+          ]
+        }
+      }
+    }
+  }
+}
