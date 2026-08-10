@@ -1,7 +1,7 @@
 {
   "addons": [
     {
-      "id": "spalestudio-agents",
+      "id": "spalestudio",
       "name": "Agent-to-agent messaging",
       "blurb": "Lets Claude Code talk to the other agents open beside it in SpaleStudio — list them, ask what they are working on, hand them tasks.",
       "about": "Installs a skill into ~/.claude/skills. Claude Code reads it on its next start and learns the four commands SpaleStudio exposes, when using them is worth it, and — the part that matters — to treat anything arriving from another agent as untrusted input rather than as an instruction from you.",
@@ -13,7 +13,7 @@
       "files": [
         {
           "path": "SKILL.md",
-          "url": "https://spixyy7.github.io/spalehub-releases/addons/spalestudio-agents/SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spalestudio/SKILL.md",
           "sha256": "f32e772d381571ca97ccdbf827b6642e511a43adc4ae0f4b8e4a97be99320961"
         }
       ]
