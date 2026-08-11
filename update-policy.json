@@ -1,5 +1,5 @@
 {
-  "latest": "0.3.2",
+  "latest": "0.3.3",
   "minimumVersion": "0.2.2",
   "releases": {
     "0.1.1": {
@@ -209,6 +209,33 @@
           ],
           "fixed": [
             "Ažuriranja uvek nađu svoj download."
+          ]
+        }
+      }
+    },
+    "0.3.3": {
+      "publishedAt": "2026-08-11T09:10:00Z",
+      "sizeMb": 92,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Install is never a dead end — it can always be pressed, and it says what would not answer.",
+            "Activating one program no longer takes a seat on the other."
+          ],
+          "new": [
+            "A program that is open says so straight away.",
+            "Press the line about a release to read the whole of it."
+          ]
+        },
+        "sr": {
+          "fixed": [
+            "Install više nije mrtvo dugme — uvek se može pritisnuti i kaže šta nije odgovorilo.",
+            "Aktiviranje jednog programa više ne troši mesto na drugom."
+          ],
+          "new": [
+            "Program koji je otvoren to odmah i piše.",
+            "Pritisni red o izdanju da pročitaš celo."
           ]
         }
       }
