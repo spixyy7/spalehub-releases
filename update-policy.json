@@ -1,6 +1,6 @@
 {
-  "latest": "0.3.3",
-  "minimumVersion": "0.2.2",
+  "latest": "0.3.4",
+  "minimumVersion": "0.3.4",
   "releases": {
     "0.1.1": {
       "publishedAt": "2026-08-10T16:33:10Z",
@@ -236,6 +236,33 @@
           "new": [
             "Program koji je otvoren to odmah i piše.",
             "Pritisni red o izdanju da pročitaš celo."
+          ]
+        }
+      }
+    },
+    "0.3.4": {
+      "publishedAt": "2026-08-11T10:00:00Z",
+      "sizeMb": 92,
+      "mandatory": true,
+      "notes": {
+        "en": {
+          "new": [
+            "Install asks where it should go, in a proper window rather than a folder icon nobody could see."
+          ],
+          "fixed": [
+            "Choosing a folder no longer commits you to it — only installing does.",
+            "An update goes back where the program already is, instead of leaving a second copy behind.",
+            "Both cards are the same height again, and a version we could not read says so."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Install pita gde da ide, u pravom prozoru umesto folder ikonice koju niko nije video."
+          ],
+          "fixed": [
+            "Biranje foldera te više ne obavezuje — obavezuje te tek instalacija.",
+            "Ažuriranje se vraća tamo gde program već jeste, umesto da ostavi drugu kopiju.",
+            "Obe kartice su opet iste visine, a verzija koja se ne pročita to i kaže."
           ]
         }
       }
