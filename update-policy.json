@@ -1,5 +1,5 @@
 {
-  "latest": "0.2.2",
+  "latest": "0.3.0",
   "minimumVersion": "0.2.2",
   "releases": {
     "0.1.1": {
@@ -146,6 +146,25 @@
         "en": {
           "new": [
             "A quiet line at the foot of each screen, pointing out something that screen can do."
+          ]
+        }
+      }
+    },
+    "0.3.0": {
+      "publishedAt": "2026-08-11T07:01:00Z",
+      "sizeMb": 92,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "Apps, Account and News redrawn. Each program is a card with room for what its newest release actually says.",
+            "Your licences read as licences: who they are for, how many computers, and which program."
+          ]
+        },
+        "sr": {
+          "new": [
+            "Apps, Account i News iznova nacrtani. Svaki program je kartica sa mestom za ono što najnovije izdanje zaista kaže.",
+            "Licence se čitaju kao licence: na koga glase, koliko računara i za koji program."
           ]
         }
       }
