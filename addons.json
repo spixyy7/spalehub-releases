@@ -17,6 +17,19 @@
           "sha256": "f32e772d381571ca97ccdbf827b6642e511a43adc4ae0f4b8e4a97be99320961"
         }
       ]
+    },
+    {
+      "id": "claude-notify",
+      "name": "Claude notifications",
+      "blurb": "Claude tells you itself when it has finished and when it needs your permission. Quiet the rest of the time.",
+      "about": "Adds hooks to your Claude Code settings so Claude reports its own state instead of SpaleStudio guessing from what the terminal prints — which is why it used to say \"finished\" every few seconds while Claude was still thinking. A permission request always reaches you. A turn that ended in under half a minute does not, because you were watching it. Removing this takes the hooks back out and changes nothing else.",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "hook",
+      "recommended": true,
+      "recommendedWhat": "strongly recommended",
+      "recommendedWhy": "Without it, agent notifications in SpaleStudio stay switched off — there is no reliable way to know when an agent has actually finished.",
+      "files": []
     }
   ]
 }
