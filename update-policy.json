@@ -1,5 +1,5 @@
 {
-  "latest": "0.3.6",
+  "latest": "0.3.9",
   "minimumVersion": "0.3.6",
   "releases": {
     "0.1.1": {
@@ -301,6 +301,32 @@
           "fixed": [
             "Oba programa su iste veličine na polici, pa im se dugmad poklapaju bez obzira na dužinu opisa.",
             "Red o najnovijem izdanju se više ne seče usred reči."
+          ]
+        }
+      }
+    },
+    "0.3.8": {
+      "publishedAt": "2026-08-12T15:39:39.903Z",
+      "sizeMb": 92,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "**Close now closes.** Pressing Close on a running product asked politely and then read the wrong signal to decide what had happened, so it reported that the program had refused when it had not even been asked properly. It waits for the program to actually go, and says so honestly if it stays.",
+            "SpaleVoice closes from the hub. It lives in the tray with nothing unsaved, so Close finishes the job.",
+            "SpaleStudio is never forced. It holds terminals and hides to the tray when its window closes, so the hub asks rather than taking a build down with it."
+          ]
+        }
+      }
+    },
+    "0.3.9": {
+      "publishedAt": "2026-08-12T15:39:39.905Z",
+      "sizeMb": 92,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "**The hub activates a product the moment it can.** SpaleStudio no longer has to be restarted after you sign in or free a seat — it asks the hub, and the hub answers as soon as it is running. Open the hub and a licensed product stops asking you to sign in."
           ]
         }
       }
