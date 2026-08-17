@@ -1,348 +1,366 @@
 {
-  "latest": "0.3.9",
-  "minimumVersion": "0.3.6",
-  "releases": {
-    "0.1.1": {
-      "publishedAt": "2026-08-10T16:33:10Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "Licence keys work for every Spale program. Paste one and SpaleHub finds the program it belongs to, adds it to your account, and tells you what to do next."
-          ]
-        },
-        "sr": {
-          "new": [
-            "Licencni ključevi rade za svaki Spale program. Nalepite ključ i SpaleHub sam pronađe kom programu pripada, doda ga na nalog i kaže šta je sledeće."
-          ]
-        }
-      }
-    },
-    "0.1.4": {
-      "publishedAt": "2026-08-11T00:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "What's new lists every past version of every program.",
-            "New versions are noticed within minutes and announced in the tray.",
-            "A computer already proved on one of your licences is added to the others without asking again."
-          ],
-          "fixed": [
-            "Update offered itself before your licence had been checked, then changed to Activate licence after you pressed it.",
-            "\"Get a licence\" was shown to people who already had one and only needed this computer added."
-          ]
-        }
-      }
-    },
-    "0.1.5": {
-      "publishedAt": "2026-08-11T01:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "What's new now includes SpaleHub's own releases, not only the programs it installs."
-          ],
-          "fixed": [
-            "What's new listed versions out of order when several were published on the same day."
-          ]
-        }
-      }
-    },
-    "0.1.6": {
-      "publishedAt": "2026-08-11T02:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "A strength meter when you choose a password, and weak ones are refused.",
-            "No confirmation email? Resetting your password confirms your address too."
-          ],
-          "fixed": [
-            "The same action was drawn two different ways on two rows."
-          ]
-        }
-      }
-    },
-    "0.1.7": {
-      "publishedAt": "2026-08-11T03:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "Add-ons. Extra pieces for the programs you own, starting with a skill that teaches the agents in SpaleStudio to talk to each other."
-          ]
-        }
-      }
-    },
-    "0.1.8": {
-      "publishedAt": "2026-08-11T04:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "Add-ons say which program they belong to, and each program has its own Add-ons tab."
-          ]
-        }
-      }
-    },
-    "0.1.9": {
-      "publishedAt": "2026-08-11T05:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "A program that is open says OPEN, and can be closed from the hub.",
-            "Add-ons report whether Claude can see a skill, however it was installed."
-          ]
-        }
-      }
-    },
-    "0.2.0": {
-      "publishedAt": "2026-08-11T06:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "fixed": [
-            "Adding a computer always enrolled it on SpaleVoice, so anyone who owned only SpaleStudio could never get onto their licence — and was told it had worked.",
-            "A program opened from the hub was killed once it had printed enough output.",
-            "A bad minute from the licence server deleted your saved sign-in, and the window went on saying you were signed in."
-          ]
-        }
-      }
-    },
-    "0.2.1": {
-      "publishedAt": "2026-08-11T09:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "Activating this computer sits inside each program on Computers, where the row will appear.",
-            "SpaleHub now writes down its own crashes and shows you the file, instead of just disappearing."
-          ],
-          "fixed": [
-            "Installers were kept after they had run — around a hundred megabytes each.",
-            "Removing another computer did not update the seat count on Apps until the next check.",
-            "Finishing setup left a black terminal window on screen for up to a minute.",
-            "A fresh computer briefly read Get a licence before correcting itself."
-          ]
-        }
-      }
-    },
-    "0.2.2": {
-      "publishedAt": "2026-08-11T10:30:00Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "new": [
-            "A quiet line at the foot of each screen, pointing out something that screen can do."
-          ]
-        }
-      }
-    },
-    "0.3.0": {
-      "publishedAt": "2026-08-11T07:01:00Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "new": [
-            "Apps, Account and News redrawn. Each program is a card with room for what its newest release actually says.",
-            "Your licences read as licences: who they are for, how many computers, and which program."
-          ]
-        },
-        "sr": {
-          "new": [
-            "Apps, Account i News iznova nacrtani. Svaki program je kartica sa mestom za ono što najnovije izdanje zaista kaže.",
-            "Licence se čitaju kao licence: na koga glase, koliko računara i za koji program."
-          ]
-        }
-      }
-    },
-    "0.3.1": {
-      "publishedAt": "2026-08-11T07:20:00Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "fixed": [
-            "Steadier on a poor connection."
-          ]
-        },
-        "sr": {
-          "fixed": [
-            "Stabilniji na slaboj vezi."
-          ]
-        }
-      }
-    },
-    "0.3.2": {
-      "publishedAt": "2026-08-11T08:20:00Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "new": [
-            "Every program shows its own icon.",
-            "Frame your profile picture before it goes up — drag it, zoom it, and what is in the circle is what everyone sees.",
-            "A version that has been withdrawn is called out in red, with a button that puts you back on the published one."
-          ],
-          "fixed": [
-            "Updates always find their download."
-          ]
-        },
-        "sr": {
-          "new": [
-            "Svaki program prikazuje svoju ikonicu.",
-            "Namestite profilnu pre nego što ode — pomerite je, zumirajte, i ono što je u krugu je ono što svi vide.",
-            "Verzija koja je povučena piše crvenim, sa dugmetom koje vas vraća na objavljenu."
-          ],
-          "fixed": [
-            "Ažuriranja uvek nađu svoj download."
-          ]
-        }
-      }
-    },
-    "0.3.3": {
-      "publishedAt": "2026-08-11T09:10:00Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "fixed": [
-            "Install is never a dead end — it can always be pressed, and it says what would not answer.",
-            "Activating one program no longer takes a seat on the other."
-          ],
-          "new": [
-            "A program that is open says so straight away.",
-            "Press the line about a release to read the whole of it."
-          ]
-        },
-        "sr": {
-          "fixed": [
-            "Install više nije mrtvo dugme — uvek se može pritisnuti i kaže šta nije odgovorilo.",
-            "Aktiviranje jednog programa više ne troši mesto na drugom."
-          ],
-          "new": [
-            "Program koji je otvoren to odmah i piše.",
-            "Pritisni red o izdanju da pročitaš celo."
-          ]
-        }
-      }
-    },
-    "0.3.4": {
-      "publishedAt": "2026-08-11T10:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "Install asks where it should go, in a proper window rather than a folder icon nobody could see."
-          ],
-          "fixed": [
-            "Choosing a folder no longer commits you to it — only installing does.",
-            "An update goes back where the program already is, instead of leaving a second copy behind.",
-            "Both cards are the same height again, and a version we could not read says so."
-          ]
-        },
-        "sr": {
-          "new": [
-            "Install pita gde da ide, u pravom prozoru umesto folder ikonice koju niko nije video."
-          ],
-          "fixed": [
-            "Biranje foldera te više ne obavezuje — obavezuje te tek instalacija.",
-            "Ažuriranje se vraća tamo gde program već jeste, umesto da ostavi drugu kopiju.",
-            "Obe kartice su opet iste visine, a verzija koja se ne pročita to i kaže."
-          ]
-        }
-      }
-    },
-    "0.3.5": {
-      "publishedAt": "2026-08-11T11:00:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "new": [
-            "Add-ons is what you have, grouped by program, with a place to browse when you want more.",
-            "Claude notifications: Claude tells you itself when it has finished and when it needs your permission."
-          ]
-        },
-        "sr": {
-          "new": [
-            "Add-ons je ono što imaš, grupisano po programu, sa mestom za razgledanje kad hoćeš još.",
-            "Claude notifikacije: Claude sam javlja kad je završio i kad mu treba tvoja dozvola."
-          ]
-        }
-      }
-    },
-    "0.3.6": {
-      "publishedAt": "2026-08-11T11:55:00Z",
-      "sizeMb": 92,
-      "mandatory": true,
-      "notes": {
-        "en": {
-          "fixed": [
-            "Both programs are the same size on the shelf, so their buttons line up whatever length their descriptions are.",
-            "The line about the newest release is no longer cut off mid-word."
-          ]
-        },
-        "sr": {
-          "fixed": [
-            "Oba programa su iste veličine na polici, pa im se dugmad poklapaju bez obzira na dužinu opisa.",
-            "Red o najnovijem izdanju se više ne seče usred reči."
-          ]
-        }
-      }
-    },
-    "0.3.8": {
-      "publishedAt": "2026-08-12T15:39:39.903Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "fixed": [
-            "**Close now closes.** Pressing Close on a running product asked politely and then read the wrong signal to decide what had happened, so it reported that the program had refused when it had not even been asked properly. It waits for the program to actually go, and says so honestly if it stays.",
-            "SpaleVoice closes from the hub. It lives in the tray with nothing unsaved, so Close finishes the job.",
-            "SpaleStudio is never forced. It holds terminals and hides to the tray when its window closes, so the hub asks rather than taking a build down with it."
-          ]
-        }
-      }
-    },
-    "0.3.9": {
-      "publishedAt": "2026-08-12T15:39:39.905Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "new": [
-            "**The hub activates a product the moment it can.** SpaleStudio no longer has to be restarted after you sign in or free a seat — it asks the hub, and the hub answers as soon as it is running. Open the hub and a licensed product stops asking you to sign in."
-          ]
-        }
-      }
-    },
-    "0.3.7": {
-      "publishedAt": "2026-08-12T16:21:25.470Z",
-      "sizeMb": 92,
-      "mandatory": false,
-      "notes": {
-        "en": {
-          "fixed": [
-            "**The Computers screen stops mixing up your programs.** Pressing Activate on one opened the code box on the other, greyed out both buttons, and typed digits meant for one licence into the other's field. Each program now minds its own row.",
-            "After a code is accepted, the row stays gone instead of flashing back to \"Activate this computer\"."
-          ]
-        }
-      }
-    }
-  }
+    "latest":  "0.4.0",
+    "minimumVersion":  "0.3.6",
+    "releases":  {
+                     "0.1.1":  {
+                                   "publishedAt":  "2026-08-10T16:33:10Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Licence keys work for every Spale program. Paste one and SpaleHub finds the program it belongs to, adds it to your account, and tells you what to do next."
+                                                                    ]
+                                                        },
+                                                 "sr":  {
+                                                            "new":  [
+                                                                        "Licencni ključevi rade za svaki Spale program. Nalepite ključ i SpaleHub sam pronađe kom programu pripada, doda ga na nalog i kaže šta je sledeće."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.1.4":  {
+                                   "publishedAt":  "2026-08-11T00:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "What\u0027s new lists every past version of every program.",
+                                                                        "New versions are noticed within minutes and announced in the tray.",
+                                                                        "A computer already proved on one of your licences is added to the others without asking again."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "Update offered itself before your licence had been checked, then changed to Activate licence after you pressed it.",
+                                                                          "\"Get a licence\" was shown to people who already had one and only needed this computer added."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.1.5":  {
+                                   "publishedAt":  "2026-08-11T01:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "What\u0027s new now includes SpaleHub\u0027s own releases, not only the programs it installs."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "What\u0027s new listed versions out of order when several were published on the same day."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.1.6":  {
+                                   "publishedAt":  "2026-08-11T02:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "A strength meter when you choose a password, and weak ones are refused.",
+                                                                        "No confirmation email? Resetting your password confirms your address too."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "The same action was drawn two different ways on two rows."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.1.7":  {
+                                   "publishedAt":  "2026-08-11T03:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Add-ons. Extra pieces for the programs you own, starting with a skill that teaches the agents in SpaleStudio to talk to each other."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.1.8":  {
+                                   "publishedAt":  "2026-08-11T04:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Add-ons say which program they belong to, and each program has its own Add-ons tab."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.1.9":  {
+                                   "publishedAt":  "2026-08-11T05:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "A program that is open says OPEN, and can be closed from the hub.",
+                                                                        "Add-ons report whether Claude can see a skill, however it was installed."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.2.0":  {
+                                   "publishedAt":  "2026-08-11T06:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "Adding a computer always enrolled it on SpaleVoice, so anyone who owned only SpaleStudio could never get onto their licence — and was told it had worked.",
+                                                                          "A program opened from the hub was killed once it had printed enough output.",
+                                                                          "A bad minute from the licence server deleted your saved sign-in, and the window went on saying you were signed in."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.2.1":  {
+                                   "publishedAt":  "2026-08-11T09:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Activating this computer sits inside each program on Computers, where the row will appear.",
+                                                                        "SpaleHub now writes down its own crashes and shows you the file, instead of just disappearing."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "Installers were kept after they had run — around a hundred megabytes each.",
+                                                                          "Removing another computer did not update the seat count on Apps until the next check.",
+                                                                          "Finishing setup left a black terminal window on screen for up to a minute.",
+                                                                          "A fresh computer briefly read Get a licence before correcting itself."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.2.2":  {
+                                   "publishedAt":  "2026-08-11T10:30:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "A quiet line at the foot of each screen, pointing out something that screen can do."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.3.0":  {
+                                   "publishedAt":  "2026-08-11T07:01:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Apps, Account and News redrawn. Each program is a card with room for what its newest release actually says.",
+                                                                        "Your licences read as licences: who they are for, how many computers, and which program."
+                                                                    ]
+                                                        },
+                                                 "sr":  {
+                                                            "new":  [
+                                                                        "Apps, Account i News iznova nacrtani. Svaki program je kartica sa mestom za ono što najnovije izdanje zaista kaže.",
+                                                                        "Licence se čitaju kao licence: na koga glase, koliko računara i za koji program."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.3.1":  {
+                                   "publishedAt":  "2026-08-11T07:20:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "Steadier on a poor connection."
+                                                                      ]
+                                                        },
+                                                 "sr":  {
+                                                            "fixed":  [
+                                                                          "Stabilniji na slaboj vezi."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.3.2":  {
+                                   "publishedAt":  "2026-08-11T08:20:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Every program shows its own icon.",
+                                                                        "Frame your profile picture before it goes up — drag it, zoom it, and what is in the circle is what everyone sees.",
+                                                                        "A version that has been withdrawn is called out in red, with a button that puts you back on the published one."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "Updates always find their download."
+                                                                      ]
+                                                        },
+                                                 "sr":  {
+                                                            "new":  [
+                                                                        "Svaki program prikazuje svoju ikonicu.",
+                                                                        "Namestite profilnu pre nego što ode — pomerite je, zumirajte, i ono što je u krugu je ono što svi vide.",
+                                                                        "Verzija koja je povučena piše crvenim, sa dugmetom koje vas vraća na objavljenu."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "Ažuriranja uvek nađu svoj download."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.3.3":  {
+                                   "publishedAt":  "2026-08-11T09:10:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "Install is never a dead end — it can always be pressed, and it says what would not answer.",
+                                                                          "Activating one program no longer takes a seat on the other."
+                                                                      ],
+                                                            "new":  [
+                                                                        "A program that is open says so straight away.",
+                                                                        "Press the line about a release to read the whole of it."
+                                                                    ]
+                                                        },
+                                                 "sr":  {
+                                                            "fixed":  [
+                                                                          "Install više nije mrtvo dugme — uvek se može pritisnuti i kaže šta nije odgovorilo.",
+                                                                          "Aktiviranje jednog programa više ne troši mesto na drugom."
+                                                                      ],
+                                                            "new":  [
+                                                                        "Program koji je otvoren to odmah i piše.",
+                                                                        "Pritisni red o izdanju da pročitaš celo."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.3.4":  {
+                                   "publishedAt":  "2026-08-11T10:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Install asks where it should go, in a proper window rather than a folder icon nobody could see."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "Choosing a folder no longer commits you to it — only installing does.",
+                                                                          "An update goes back where the program already is, instead of leaving a second copy behind.",
+                                                                          "Both cards are the same height again, and a version we could not read says so."
+                                                                      ]
+                                                        },
+                                                 "sr":  {
+                                                            "new":  [
+                                                                        "Install pita gde da ide, u pravom prozoru umesto folder ikonice koju niko nije video."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "Biranje foldera te više ne obavezuje — obavezuje te tek instalacija.",
+                                                                          "Ažuriranje se vraća tamo gde program već jeste, umesto da ostavi drugu kopiju.",
+                                                                          "Obe kartice su opet iste visine, a verzija koja se ne pročita to i kaže."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.3.5":  {
+                                   "publishedAt":  "2026-08-11T11:00:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "Add-ons is what you have, grouped by program, with a place to browse when you want more.",
+                                                                        "Claude notifications: Claude tells you itself when it has finished and when it needs your permission."
+                                                                    ]
+                                                        },
+                                                 "sr":  {
+                                                            "new":  [
+                                                                        "Add-ons je ono što imaš, grupisano po programu, sa mestom za razgledanje kad hoćeš još.",
+                                                                        "Claude notifikacije: Claude sam javlja kad je završio i kad mu treba tvoja dozvola."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.3.6":  {
+                                   "publishedAt":  "2026-08-11T11:55:00Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "Both programs are the same size on the shelf, so their buttons line up whatever length their descriptions are.",
+                                                                          "The line about the newest release is no longer cut off mid-word."
+                                                                      ]
+                                                        },
+                                                 "sr":  {
+                                                            "fixed":  [
+                                                                          "Oba programa su iste veličine na polici, pa im se dugmad poklapaju bez obzira na dužinu opisa.",
+                                                                          "Red o najnovijem izdanju se više ne seče usred reči."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.3.8":  {
+                                   "publishedAt":  "2026-08-12T15:39:39.903Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "**Close now closes.** Pressing Close on a running product asked politely and then read the wrong signal to decide what had happened, so it reported that the program had refused when it had not even been asked properly. It waits for the program to actually go, and says so honestly if it stays.",
+                                                                          "SpaleVoice closes from the hub. It lives in the tray with nothing unsaved, so Close finishes the job.",
+                                                                          "SpaleStudio is never forced. It holds terminals and hides to the tray when its window closes, so the hub asks rather than taking a build down with it."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.3.9":  {
+                                   "publishedAt":  "2026-08-12T15:39:39.905Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "**The hub activates a product the moment it can.** SpaleStudio no longer has to be restarted after you sign in or free a seat — it asks the hub, and the hub answers as soon as it is running. Open the hub and a licensed product stops asking you to sign in."
+                                                                    ]
+                                                        }
+                                             }
+                               },
+                     "0.3.7":  {
+                                   "publishedAt":  "2026-08-12T16:21:25.470Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "**The Computers screen stops mixing up your programs.** Pressing Activate on one opened the code box on the other, greyed out both buttons, and typed digits meant for one licence into the other\u0027s field. Each program now minds its own row.",
+                                                                          "After a code is accepted, the row stays gone instead of flashing back to \"Activate this computer\"."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.4.0":  {
+                                   "publishedAt":  "2026-08-17T09:42:40.058Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "**Update everything in one go.** Press Update on both programs and the second one waits its turn instead of being turned away — its card says Queued until it starts.",
+                                                                        "**Settings.** Turn automatic SpaleHub updates off and pick the moment yourself. It still checks and still tells you what it found; it just waits for you to press Update now.",
+                                                                        "**A program that needs a newer SpaleHub says so.** Its card tells you which version it needs, whether that is to run at all or only to move to its newest release — and the button there updates SpaleHub for you."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "**A card waits until it knows before it tells you anything.** It used to offer Open the moment it opened, then change its mind minutes later and ask for an update — including for a program that would not have started at all. Now it says Checking until the versions have actually been read.",
+                                                                          "**A version check that does not get through tries again a minute later.** One dropped connection used to leave a program looking up to date until the next check hours away."
+                                                                      ]
+                                                        }
+                                             }
+                               }
+                 }
 }
