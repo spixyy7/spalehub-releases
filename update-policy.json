@@ -1,5 +1,5 @@
 {
-    "latest":  "0.4.0",
+    "latest":  "0.4.1",
     "minimumVersion":  "0.3.6",
     "releases":  {
                      "0.1.1":  {
@@ -358,6 +358,21 @@
                                                             "fixed":  [
                                                                           "**A card waits until it knows before it tells you anything.** It used to offer Open the moment it opened, then change its mind minutes later and ask for an update — including for a program that would not have started at all. Now it says Checking until the versions have actually been read.",
                                                                           "**A version check that does not get through tries again a minute later.** One dropped connection used to leave a program looking up to date until the next check hours away."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.4.1":  {
+                                   "publishedAt":  "2026-08-17T10:11:11.134Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "**A version we have withdrawn no longer waits to be noticed.** When the SpaleHub you have is no longer supported, it replaces itself instead of sitting there — whatever your update setting says. Ordinary versions still wait for you."
+                                                                    ],
+                                                            "fixed":  [
+                                                                          "**Major fixes throughout.** Worth taking."
                                                                       ]
                                                         }
                                              }
