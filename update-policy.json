@@ -1,6 +1,6 @@
 {
-    "latest":  "0.4.3",
-    "minimumVersion":  "0.4.3",
+    "latest":  "0.4.4",
+    "minimumVersion":  "0.4.4",
     "releases":  {
                      "0.1.1":  {
                                    "publishedAt":  "2026-08-10T16:33:10Z",
@@ -400,6 +400,18 @@
                                                             "fixed":  [
                                                                           "**Nothing from Spale ever appears in an ordinary terminal.** The Claude notifications add-on now acts only inside SpaleStudio terminals and stays completely silent everywhere else — no more connection errors when SpaleStudio is closed.",
                                                                           "**Notifications stay set up.** Closing SpaleStudio no longer shows the add-on as removed; it picks up again the moment SpaleStudio starts."
+                                                                      ]
+                                                        }
+                                             }
+                               },
+                     "0.4.4":  {
+                                   "publishedAt":  "2026-08-18T20:16:55.710Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  true,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "fixed":  [
+                                                                          "**Minor patches.** Small improvements throughout."
                                                                       ]
                                                         }
                                              }
