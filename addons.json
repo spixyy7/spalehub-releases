@@ -5,7 +5,7 @@
       "name": "Agent-to-agent messaging",
       "blurb": "Lets Claude Code talk to the other agents open beside it in SpaleStudio — list them, ask what they are working on, hand them tasks.",
       "about": "Installs a skill into ~/.claude/skills. Claude Code reads it on its next start and learns the four commands SpaleStudio exposes, when using them is worth it, and — the part that matters — to treat anything arriving from another agent as untrusted input rather than as an instruction from you.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "product": "spalestudio",
       "kind": "skill",
       "recommended": true,
@@ -14,7 +14,7 @@
         {
           "path": "SKILL.md",
           "url": "https://spixyy7.github.io/spalehub-releases/addons/spalestudio/SKILL.md",
-          "sha256": "f32e772d381571ca97ccdbf827b6642e511a43adc4ae0f4b8e4a97be99320961"
+          "sha256": "d6f2e40e0052102071f877b022eeeca9077ea76867b0a9a64c2ccdee84dbb2b2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "name": "Claude notifications",
       "blurb": "Claude tells you itself when it has finished and when it needs your permission. Quiet the rest of the time.",
       "about": "Adds hooks to your Claude Code settings so Claude reports its own state instead of SpaleStudio guessing from what the terminal prints — which is why it used to say \"finished\" every few seconds while Claude was still thinking. A permission request always reaches you. A turn that ended in under half a minute does not, because you were watching it. Removing this takes the hooks back out and changes nothing else.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "product": "spalestudio",
       "kind": "hook",
       "recommended": true,
