@@ -1,5 +1,5 @@
 {
-    "latest":  "0.4.5",
+    "latest":  "0.4.6",
     "minimumVersion":  "0.4.5",
     "releases":  {
                      "0.1.1":  {
@@ -426,6 +426,19 @@
                                                                           "**Updating a program that is open now works.** SpaleHub closes it first, waits for it to let go of its files, and then installs — instead of handing the installer a running program and leaving you with a Windows error you could do nothing about.",
                                                                           "**A program you just installed is shown as installed.** The list read the version to decide that, and the version is not always readable in the first seconds; now it asks whether the program is there."
                                                                       ]
+                                                        }
+                                             }
+                               },
+                     "0.4.6":  {
+                                   "publishedAt":  "2026-08-19T17:26:38.860Z",
+                                   "sizeMb":  92,
+                                   "mandatory":  false,
+                                   "notes":  {
+                                                 "en":  {
+                                                            "new":  [
+                                                                        "**SpaleHub asks its own questions.** Closing a program before it updates, signing out, replacing a key — every question now arrives in SpaleHub\u0027s own window with the program\u0027s icon on it, instead of a grey Windows box.",
+                                                                        "**The safe answer is the one that stands out.** On the questions that end something, the way out is the button you see first and the one that costs you is marked in red."
+                                                                    ]
                                                         }
                                              }
                                }
