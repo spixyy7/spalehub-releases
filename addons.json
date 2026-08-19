@@ -2,14 +2,14 @@
   "addons": [
     {
       "id": "spalestudio",
-      "name": "Agent-to-agent messaging",
-      "blurb": "Lets Claude Code talk to the other agents open beside it in SpaleStudio — list them, ask what they are working on, hand them tasks.",
-      "about": "Installs a skill into ~/.claude/skills. Claude Code reads it on its next start and learns the four commands SpaleStudio exposes, when using them is worth it, and — the part that matters — to treat anything arriving from another agent as untrusted input rather than as an instruction from you.",
-      "version": "1.0.1",
+      "name": "Agent messaging & notifications",
+      "blurb": "Claude Code can see the other agents open beside it — list them, ask what they are working on, hand them tasks — and tells you itself when it has finished or needs your permission.",
+      "about": "Two halves of one connection, installed together. A skill goes into ~/.claude/skills, which Claude Code reads on its next start: it learns the commands SpaleStudio exposes, when using them is worth it, and — the part that matters — to treat anything arriving from another agent as untrusted input rather than as an instruction from you. Hooks go into your Claude Code settings, so Claude reports its own state instead of SpaleStudio guessing from what the terminal prints, which is why it used to say \"finished\" every few seconds while Claude was still thinking. A permission request always reaches you; a turn that ended in under half a minute does not, because you were watching it. Removing this takes both halves back out and changes nothing else.",
+      "version": "1.1.0",
       "product": "spalestudio",
       "kind": "skill",
       "recommended": true,
-      "recommendedWhy": "Without it an agent does not know the other terminals exist, and will not use them.",
+      "recommendedWhy": "Without it an agent does not know the other terminals exist, and there is no reliable way to know when one has actually finished.",
       "files": [
         {
           "path": "SKILL.md",
@@ -20,15 +20,12 @@
     },
     {
       "id": "claude-notify",
-      "name": "Claude notifications",
-      "blurb": "Claude tells you itself when it has finished and when it needs your permission. Quiet the rest of the time.",
-      "about": "Adds hooks to your Claude Code settings so Claude reports its own state instead of SpaleStudio guessing from what the terminal prints — which is why it used to say \"finished\" every few seconds while Claude was still thinking. A permission request always reaches you. A turn that ended in under half a minute does not, because you were watching it. Removing this takes the hooks back out and changes nothing else.",
+      "name": "Claude notifications (replaced)",
+      "blurb": "The half that let Claude report itself. It is part of Agent messaging & notifications now — remove this one and install that instead.",
+      "about": "This was one of two add-ons that turned out to be two halves of the same thing: a skill that told Claude the other agents existed, and these hooks that let Claude report back. Installing one without the other left a half-connected program with nothing to say which half was missing, so they are one add-on now. Nothing new installs this entry; it stays listed only on the machines that still have these hooks on their own, so they can be taken out from the same place they were put in.",
       "version": "1.0.1",
       "product": "spalestudio",
       "kind": "hook",
-      "recommended": true,
-      "recommendedWhat": "strongly recommended",
-      "recommendedWhy": "Without it, agent notifications in SpaleStudio stay switched off — there is no reliable way to know when an agent has actually finished.",
       "files": []
     }
   ]
