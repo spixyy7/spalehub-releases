@@ -17,16 +17,6 @@
           "sha256": "d6f2e40e0052102071f877b022eeeca9077ea76867b0a9a64c2ccdee84dbb2b2"
         }
       ]
-    },
-    {
-      "id": "claude-notify",
-      "name": "Claude notifications (replaced)",
-      "blurb": "The half that let Claude report itself. It is part of Agent messaging & notifications now — remove this one and install that instead.",
-      "about": "This was one of two add-ons that turned out to be two halves of the same thing: a skill that told Claude the other agents existed, and these hooks that let Claude report back. Installing one without the other left a half-connected program with nothing to say which half was missing, so they are one add-on now. Nothing new installs this entry; it stays listed only on the machines that still have these hooks on their own, so they can be taken out from the same place they were put in.",
-      "version": "1.0.1",
-      "product": "spalestudio",
-      "kind": "hook",
-      "files": []
     }
   ]
 }
