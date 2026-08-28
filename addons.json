@@ -3,8 +3,8 @@
     {
       "id": "spalestudio",
       "name": "Agent messaging & notifications",
-      "blurb": "Claude Code can see the other agents open beside it — list them, ask what they are working on, hand them tasks — and tells you itself when it has finished or needs your permission.",
-      "about": "Two halves of one connection, installed together. A skill goes into ~/.claude/skills, which Claude Code reads on its next start: it learns the commands SpaleStudio exposes, when using them is worth it, and — the part that matters — to treat anything arriving from another agent as untrusted input rather than as an instruction from you. Hooks go into your Claude Code settings, so Claude reports its own state instead of SpaleStudio guessing from what the terminal prints, which is why it used to say \"finished\" every few seconds while Claude was still thinking. A permission request always reaches you; a turn that ended in under half a minute does not, because you were watching it. Removing this takes both halves back out and changes nothing else.",
+      "blurb": "Claude Code can see the other agents open beside it \u2014 list them, ask what they are working on, hand them tasks \u2014 and tells you itself when it has finished or needs your permission.",
+      "about": "Two halves of one connection, installed together. A skill goes into ~/.claude/skills, which Claude Code reads on its next start: it learns the commands SpaleStudio exposes, when using them is worth it, and \u2014 the part that matters \u2014 to treat anything arriving from another agent as untrusted input rather than as an instruction from you. Hooks go into your Claude Code settings, so Claude reports its own state instead of SpaleStudio guessing from what the terminal prints, which is why it used to say \"finished\" every few seconds while Claude was still thinking. A permission request always reaches you; a turn that ended in under half a minute does not, because you were watching it. Removing this takes both halves back out and changes nothing else.",
       "version": "1.1.0",
       "product": "spalestudio",
       "kind": "skill",
@@ -15,6 +15,114 @@
           "path": "SKILL.md",
           "url": "https://spixyy7.github.io/spalehub-releases/addons/spalestudio/SKILL.md",
           "sha256": "d6f2e40e0052102071f877b022eeeca9077ea76867b0a9a64c2ccdee84dbb2b2"
+        }
+      ]
+    },
+    {
+      "id": "spale-security",
+      "name": "SpaleSecurity",
+      "blurb": "Senior security-engineer instincts for any agent that reads, writes, or reviews code. OWASP Top 10, CWE Top 25, and supply-chain coverage.",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "skill",
+      "programs": [
+        "claude"
+      ],
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spale-security/SKILL.md",
+          "sha256": "042bfb307b6c4c1298e2230b26ccfcc808a9f0ed0ef6b775ce5db646e14ba4b1"
+        }
+      ]
+    },
+    {
+      "id": "spale-seo",
+      "name": "SpaleSEO",
+      "blurb": "Modern (2025/2026) SEO methodology for auditing and writing pages \u2014 title tags, meta, headings, structured data, Core Web Vitals, and AI-search citation patterns.",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "skill",
+      "programs": [
+        "claude"
+      ],
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spale-seo/SKILL.md",
+          "sha256": "f41f7ad1000e7a37d46a38c7d1bb82ca31d17c677187b4c3af0f2c5ca7b56e05"
+        }
+      ]
+    },
+    {
+      "id": "spale-github",
+      "name": "SpaleGithub",
+      "blurb": "Universal commit-and-push methodology. Stages every local change in the current repo, writes a clean conventional commit, and pushes to the GitHub remote.",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "skill",
+      "programs": [
+        "claude"
+      ],
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spale-github/SKILL.md",
+          "sha256": "2529bc3c4c91c6059e6f8b95a2eb1a45bcc94d07f6b6b9dd9fba3035f549de8a"
+        }
+      ]
+    },
+    {
+      "id": "spale-obsidian",
+      "name": "SpaleObsidian",
+      "blurb": "Operate an Obsidian vault as an agent \u2014 vault structure, frontmatter, wikilinks, daily notes, and the three integration paths (filesystem, URI scheme, Local REST API).",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "skill",
+      "programs": [
+        "claude"
+      ],
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spale-obsidian/SKILL.md",
+          "sha256": "5aca3ae16033547dbe42d1443dab53f3197ae75b1d22ee1aef11512b15aaa307"
+        }
+      ]
+    },
+    {
+      "id": "spale-agents",
+      "name": "SpaleAgents",
+      "blurb": "How to work beside the other agents in a SpaleStudio window \u2014 discover who is running, hand work over the local agent bus, read the inbox, and ask the window for tiles or folders.",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "skill",
+      "programs": [
+        "claude"
+      ],
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spale-agents/SKILL.md",
+          "sha256": "f3bd203a2d9f6206ed904ba8fa3f57222d0caf65f46e0d59e47dda3a28a1c336"
+        }
+      ]
+    },
+    {
+      "id": "spale-memory",
+      "name": "SpaleMemory",
+      "blurb": "Use the SpaleMemory hub proactively without being asked. The builder has a hub of interconnected Markdown memories shown in SpaleStudio; recall before answering, persist decisions, link generously \u2014 with plain file tools.",
+      "version": "1.0.0",
+      "product": "spalestudio",
+      "kind": "skill",
+      "programs": [
+        "claude"
+      ],
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://spixyy7.github.io/spalehub-releases/addons/spale-memory/SKILL.md",
+          "sha256": "8cddb01860d8eba1c89616923825e775747803d5156cb89902c826a1dd12b254"
         }
       ]
     }
