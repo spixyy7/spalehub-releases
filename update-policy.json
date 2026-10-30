@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.0",
+  "latest": "0.5.1",
   "minimumVersion": "0.4.5",
   "releases": {
     "0.1.1": {
@@ -471,6 +471,31 @@
           ],
           "fixed": [
             "**The splash is one splash.** No white box before it, no line around it, and it comes down the moment SpaleHub is ready."
+          ]
+        }
+      }
+    },
+    "0.5.1": {
+      "publishedAt": "2026-10-30T07:39:57.008Z",
+      "sizeMb": 3,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "**Send feedback from the hub.** Feedback in the header or in Settings opens its own window: report a fix or ask for a feature, add up to four pictures, and read Spale's replies as a conversation you can answer.",
+            "**SpaleStudio and SpaleVoice send their feedback through SpaleHub** too, so every reply lands in one place.",
+            "**Agent Bridge is listed in Add-ons.** Local messages, files and images between your agents in SpaleStudio.",
+            "**Newer SpaleMemory and SpaleStudio skills.** SpaleMemory sets up a project's memory the first time it is used, and the SpaleStudio skill knows about workspaces and agents typed into a plain terminal. Installed copies are offered the update.",
+            "**Crash notes say more when you send them.** If you press Send it to us, the kind of crash and the version are reported as well. The note's own text goes only in the email you send."
+          ],
+          "fixed": [
+            "Downloads are verified against signed release information before an installer can run.",
+            "Each program confirms this computer separately. Normal updates keep its existing confirmation.",
+            "Removing a computer uses that program's own allowance over the last 30 days and waits for the server to confirm removal.",
+            "An unavailable update check finishes with a clear status while licensed installed programs remain available to open.",
+            "Device checks, session handling and account handoffs include the latest security corrections.",
+            "Your picture in the hub is current every time it starts, instead of an old one for days.",
+            "The licence activation buttons on product cards have room again."
           ]
         }
       }
