@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.2",
+  "latest": "0.5.3",
   "minimumVersion": "0.4.5",
   "releases": {
     "0.1.1": {
@@ -513,6 +513,18 @@
           ],
           "fixed": [
             "Dev builds never show up in News for everyone else."
+          ]
+        }
+      }
+    },
+    "0.5.3": {
+      "publishedAt": "2026-10-31T04:20:38.506Z",
+      "sizeMb": 3,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "new": [
+            "**Install, update and remove add-ons right here.** Every add-on for all your projects has its own Install, Update and Remove, and SpaleStudio shows the same the moment you switch back to it. If your copy was older or you had changed it, SpaleHub keeps a copy before it updates or removes it."
           ]
         }
       }
