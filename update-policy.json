@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.9",
+  "latest": "0.5.10",
   "minimumVersion": "0.5.9",
   "releases": {
     "0.1.1": {
@@ -611,10 +611,23 @@
           ]
         }
       }
+    },
+    "0.5.10": {
+      "publishedAt": "2026-11-01T18:15:34.757Z",
+      "sizeMb": 3,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "Programs on the Apps list no longer stay on Checking… forever. Each program is checked on its own, and one that cannot be reached shows Could not check with Check again.",
+            "An update SpaleHub has already found keeps its Update button while SpaleHub checks again."
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZWh1YiIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlaHViLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTQyMDIyODgsImxhdGVzdCI6IjAuNS45IiwibWluaW11bVZlcnNpb24iOiIwLjUuOSIsIm1pbmltdW1IdWJWZXJzaW9uIjpudWxsLCJ1cGRhdGVIdWJWZXJzaW9uIjpudWxsfQ",
-    "sig": "_jz-_yOSIvkEZM-XUq3jCOTENby4MoxIKhVwZZAd9HsbidlHJ3IQ9dhYX36RSctBhcdwYkVf_KzVqE93mpdYDw"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZWh1YiIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlaHViLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTY5MzQ3NTgsImxhdGVzdCI6IjAuNS4xMCIsIm1pbmltdW1WZXJzaW9uIjoiMC41LjkiLCJtaW5pbXVtSHViVmVyc2lvbiI6bnVsbCwidXBkYXRlSHViVmVyc2lvbiI6bnVsbH0",
+    "sig": "MzyHVNFBC2ejM8TSDAx7AXyGbl2MiLCYEWn05NBbalK5AIUz8xywc9ZLM3Z6SHpFDGGOru2CWbZAXwz_YevzBA"
   }
 }
