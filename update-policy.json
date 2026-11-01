@@ -598,5 +598,9 @@
         }
       }
     }
+  },
+  "security": {
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZWh1YiIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlaHViLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTMzOTQxMjgsImxhdGVzdCI6IjAuNS44IiwibWluaW11bVZlcnNpb24iOiIwLjUuNiIsIm1pbmltdW1IdWJWZXJzaW9uIjpudWxsLCJ1cGRhdGVIdWJWZXJzaW9uIjpudWxsfQ",
+    "sig": "2piqcXBigrMoOyY20kuCYS-5n4tkXeCl6vd6Z5zCa_gX3wMDcr7frjaem6C3410KSm78FkqSTqM3X0LFLGfsAw"
   }
 }
