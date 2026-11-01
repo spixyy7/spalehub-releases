@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.11",
+  "latest": "0.5.12",
   "minimumVersion": "0.5.9",
   "releases": {
     "0.1.1": {
@@ -637,10 +637,22 @@
           ]
         }
       }
+    },
+    "0.5.12": {
+      "publishedAt": "2026-11-01T18:50:18.159Z",
+      "sizeMb": 3,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "fixed": [
+            "SpaleStudio no longer stays on Checking… on the Apps list after SpaleHub starts, so its Update button appears again."
+          ]
+        }
+      }
     }
   },
   "security": {
-    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZWh1YiIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlaHViLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTg1MDA0MzMsImxhdGVzdCI6IjAuNS4xMSIsIm1pbmltdW1WZXJzaW9uIjoiMC41LjkiLCJtaW5pbXVtSHViVmVyc2lvbiI6bnVsbCwidXBkYXRlSHViVmVyc2lvbiI6bnVsbH0",
-    "sig": "cHAFxyzmtSVvRx6tK4oCjxcB5l_UoUhfz_MnnIXC4VYXyMQM1d1VSsrlwGvAIqmSvv3Ls86DkPpPWBBAD2fpAA"
+    "payload": "eyJzY2hlbWEiOjEsInB1cnBvc2UiOiJzcGFsZS12ZXJzaW9uLXBvbGljeSIsInByb2R1Y3QiOiJzcGFsZWh1YiIsInJlcG9zaXRvcnkiOiJzcGl4eXk3L3NwYWxlaHViLXJlbGVhc2VzIiwicmV2aXNpb24iOjE3OTM1NTkwMTgxNjAsImxhdGVzdCI6IjAuNS4xMiIsIm1pbmltdW1WZXJzaW9uIjoiMC41LjkiLCJtaW5pbXVtSHViVmVyc2lvbiI6bnVsbCwidXBkYXRlSHViVmVyc2lvbiI6bnVsbH0",
+    "sig": "5Z4G6ZLKBKe070lUwvMnkOGU9T05QZbEnIZA0su1wckbj5__DaTsUAi-MAi1jorb5TmjZQr11BkO2EL3IVG3Aw"
   }
 }
