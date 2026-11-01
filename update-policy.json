@@ -1,5 +1,5 @@
 {
-  "latest": "0.5.6",
+  "latest": "0.5.7",
   "minimumVersion": "0.5.6",
   "releases": {
     "0.1.1": {
@@ -565,6 +565,23 @@
         "en": {
           "fixed": [
             "Programs that are not activated on this computer yet no longer show update warnings. The card shows what is missing, activating this computer, and any required update shows up as soon as the computer is activated. This update is required."
+          ]
+        }
+      }
+    },
+    "0.5.7": {
+      "publishedAt": "2026-11-01T15:48:06.027Z",
+      "sizeMb": 3,
+      "mandatory": false,
+      "notes": {
+        "en": {
+          "improved": [
+            "The SpaleHub card on the Apps list always has the button you need: Update when a new version is out, a progress bar while it downloads, Restart to update when it is ready, and Try again if a download stops.",
+            "Restart to update opens SpaleHub again once the update is in.",
+            "Developer accounts can update SpaleHub with one press. It never updates itself on those accounts, and Settings now says so."
+          ],
+          "fixed": [
+            "Messages about working offline no longer name SpaleVoice when you use other Spale programs."
           ]
         }
       }
